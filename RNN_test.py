@@ -36,3 +36,4 @@ model.fit(x_Train,y_Train_onehot,batch_size=batch_size,epochs=training_epoch,ver
 scores = model.evaluate(x_Test,y_Test_onehot,verbose=2)
 print('LSTM_MINI test scores = ',scores[0])
 print('LSTM_MINI test acc = ',scores[1])
+# 123456
